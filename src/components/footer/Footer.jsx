@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Footer.module.scss';
+import styles from './footer.module.scss';
 import logo from '../../assets/logo.svg'
 import InputField from '../input/InputField';
 import PrimaryBtn from '../btns/primaryBtn';

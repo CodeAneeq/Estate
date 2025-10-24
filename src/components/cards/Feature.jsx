@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Features.module.scss";
-// import { Home } from "lucide-react"; // Using Lucide-react for the home icon
 
 const Features = ({icon, txt}) => {
   return (

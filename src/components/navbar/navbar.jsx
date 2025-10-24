@@ -1,15 +1,12 @@
 import React, { useContext } from "react";
 import styles from "./navbar.module.scss";
-// import PrimaryBtn from "../btns/primaryBtn";
 import logo from "../../assets/logo.svg";
-// import SidebarContext from "../../context/sidebar-context";
 import { Link, NavLink } from "react-router-dom";
 import { CiSearch } from "react-icons/ci";
 import { FaCartArrowDown } from "react-icons/fa";
 import PrimaryBtn from "../btns/primaryBtn";
 
 const Navbar = () => {
-  // const { openSidebar } = useContext(SidebarContext);
 
   return (
     <div className="container">
@@ -18,7 +15,6 @@ const Navbar = () => {
         {/* child 1 */}
         <figure>
           <img src={logo} alt="" />
-          {/* <p>Hello</p> */}
         </figure>
 
         <div className={styles.hamburger}>
