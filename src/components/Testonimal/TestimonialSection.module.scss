@@ -1,0 +1,33 @@
+  .testimonialSection {
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+  
+    span {
+      color: black;
+    }
+  }
+  
+  >p{
+    color: #4B5563;
+  }
+  
+  .subheading {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .cardsContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  

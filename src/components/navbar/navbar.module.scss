@@ -1,0 +1,111 @@
+
+
+.navbar_container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // border-radius: 20px;
+    // margin-bottom: 30px;
+    background-color: transparent;
+    color: #4B5563;
+    background-color: transparent;
+    // position: absolute;
+    background-color: #111827;
+    gap: 50px;
+  
+    > figure {
+      margin-left: 20px;
+    }
+  
+    .list_container {
+      position: relative;
+      display: flex;
+      font-weight: 500;
+      list-style-type: none;
+      gap: 30px;
+      align-items: center;
+      justify-content: start;
+      font-family: 'Inter';
+      font-size: 16px;
+  
+      .li {
+        color: white;
+        text-decoration: none;
+      }
+  
+      @media (max-width: 1352px) {
+        font-size: 20px;
+      }
+  
+      @media (max-width: 1200px) {
+        font-size: 13px;
+      }
+  
+      @media (max-width: 995px) {
+        font-size: 10px;
+      }
+  
+      :hover {
+        color: black;
+        transition: 0.3s all ease-in-out;
+        cursor: pointer;
+      }
+    }
+
+    .btn_div{
+        height: 50px;
+        width: 10%;
+    }
+
+  
+    .hamburger {
+      display: none; // Hide by default
+      flex-direction: column;
+      cursor: pointer;
+  
+      .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 4px 0;
+        transition: 0.4s;
+      }
+  
+      &.open .bar:nth-child(2) {
+        opacity: 0; // Hide the middle bar when open
+      }
+  
+      &.open .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px); // Rotate the first bar
+      }
+  
+      &.open .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px); // Rotate the third bar
+      }
+    }
+  
+    // Media query for responsive design
+    @media (max-width: 900px) {
+      justify-content: space-between;
+      .list_container {
+        display: none; // Hide the list by default
+      }
+
+      .icon_div{
+        display: none;
+      }
+
+      .btn_div{
+        display: none;
+      }
+  
+      .hamburger {
+        display: flex; // Show the hamburger icon
+        justify-content: end;
+        width: 10%;
+      }
+    }
+  }
+

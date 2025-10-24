@@ -1,0 +1,44 @@
+.card {
+    background: white;
+    border-radius: 10px;
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  
+  .profileImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .designation {
+    color: gray;
+    font-size: 0.9rem;
+  }
+  
+  .stars {
+    color: red;
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .review {
+    color: #555;
+    font-size: 0.9rem;
+  }
+  

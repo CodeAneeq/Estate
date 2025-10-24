@@ -1,0 +1,27 @@
+.project_section{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+     >h2{
+        font-size: 32px;
+     }
+     >p{
+        margin-top: 10px;
+        color: #666666;
+     }
+
+     .projects_card{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        // justify-content: space-between;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        @media (max-width: 450px) {
+         flex-direction: column;
+         align-items: center;
+        }
+     }
+}

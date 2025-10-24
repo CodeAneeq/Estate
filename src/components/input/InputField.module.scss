@@ -1,0 +1,22 @@
+.inputField {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  
+    label {
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+    }
+  
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+
+      @media (max-width: 410px) {
+        width: 80%;
+      }
+    }
+  }
+  

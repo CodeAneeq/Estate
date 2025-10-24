@@ -1,0 +1,97 @@
+// .auth_layout_wrapper {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-color: rgba(0, 0, 0, 0.5); /* Overlay effect */
+//     z-index: 999; /* Make sure it's above other content */
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+  
+//     .auth_layout {
+//       width: 300px;
+//       height: 390px;
+//       background-color: white;
+//       padding: 20px;
+//       border-radius: 10px;
+//       padding-bottom: 10px;
+//       color: black;
+//       position: relative; /* Adjusted for modal only */
+//       z-index: 1000;
+  
+//       .cross_div {
+//         display: flex;
+//         justify-content: space-between;
+  
+//         .h4 {
+//           font-weight: 700;
+//           margin-bottom: 20px;
+//         }
+  
+//         > span {
+//           font-size: 20px;
+//           cursor: pointer;
+//         }
+//       }
+  
+//       .input_div {
+//         margin-top: 10px;
+//         display: flex;
+//         flex-direction: column;
+//         gap: 15px;
+//         margin-bottom: 20px;
+  
+//         .input {
+//           padding: 8px;
+//           border-radius: 5px;
+//           background: transparent;
+//           border: 1px solid gray;
+//           outline: none;
+//         }
+//       }
+  
+//       .btn {
+//         width: 100%;
+//         background-color: orange;
+//         border: none;
+//         outline: none;
+//         height: 40px;
+//         border-radius: 5px;
+//       }
+  
+//       .check {
+//         margin-top: 15px;
+//         display: flex;
+//         gap: 10px;
+//         align-items: start;
+  
+//         .checkbox {
+//           display: flex;
+//           justify-content: center;
+//           align-items: center;
+//           width: 15px;
+//           margin-top: 2px;
+//           outline: none;
+//           border: 1px solid gray;
+//         }
+  
+//         > p {
+//           font-size: 10px;
+//         }
+//       }
+  
+//       .p {
+//         margin-bottom: 0;
+//         font-size: 14px;
+  
+//         .red {
+//           color: red;
+//           cursor: pointer;
+//           text-decoration: underline;
+//         }
+//       }
+//     }
+//   }
+  
