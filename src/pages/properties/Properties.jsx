@@ -2,7 +2,6 @@ import React from 'react'
 import BasicLayout from '../../components/layout/BasicLayout'
 import styles from './properties.module.scss'
 import PropertyCard from '../../components/cards/PropertyCard'
-// import Produ from '../../redux/features/ProductApiSlice'
 
 const Properties = () => {
   return (

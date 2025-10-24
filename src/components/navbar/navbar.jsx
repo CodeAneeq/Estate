@@ -32,9 +32,6 @@ const Navbar = () => {
           <li className={`${styles.li}`}>Properties</li>
           </Link>
           <li className={`${styles.li}`}>About</li>
-          <Link to='/contact' className={styles.li}>
-          <li className={`${styles.li}`}>Contact</li>
-          </Link>
           
         </ul>
 
