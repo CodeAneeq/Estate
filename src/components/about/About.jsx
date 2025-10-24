@@ -45,7 +45,7 @@ import aboutIMG from '../../assets/brand_img.png'
 // export default About;
 
 import React from 'react';
-import styles from './About.module.scss';
+import styles from './about.module.scss';
 import PrimaryBtn from '../btns/primaryBtn';
 // import brandImage from './path/to/your/image.jpg'; // Update the path to your image
 
